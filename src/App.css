@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+.header{
+    background:  rgb(42, 94, 59);
+    display: fixed;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav li a {
+    color: aliceblue;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nav li a:hover {
+    color: rgb(231, 235, 13);
+}
+
+.btn-bar{
+    position: relative;
+}
+
+.btn-login {
+    position: absolute;
+    font-size: 18px;
+    top: 30px;
+    right: 160px;
+    background: rgb(26, 129, 22);
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.btn-register {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    font-size: 18px;
+    background: rgb(26, 129, 22);
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+}

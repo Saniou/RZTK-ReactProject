@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to left, #fdfdfd, rgb(42, 94, 59));
+}
+
+main{
+    background: rgb(245, 245, 245);
+    text-align: center;
+    width: 500px;
+    height: 670px;
+    border-radius: 15px;
+}
+
+.form-floating label{
+    color: #44B26F;
+}
+
+.form-sign-in{
+    margin: auto;
+    margin-top: 110px;
+}
+
+.img-rztk{
+    width: 50%;
+}
+
+.form-floating{
+    margin: auto;
+    width: 277px;
+    margin-bottom: 46px;
+}
+
+.btn{
+    background-color: #44B26F;
+    width: 277px;
+    height: 56px;
+    color: #fdfdfd;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 44px;
+}
+
+.btn:hover{
+    color: #44B26F;
+    background: #a4facf;
+}
+
+.OpenEye{
+    color: #44B26F;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.EyeIcon{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
