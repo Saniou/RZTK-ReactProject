@@ -64,3 +64,19 @@ main{
     right: 15px;
     top: 5px;
 }
+
+.logOut__btn{
+    background-color: #44B26F;
+    color: #fdfdfd;
+    font-family: 'Inter';
+    margin-top: 130px;
+    border: 0;
+    margin-right: 20px;
+}
+
+.delete__btn{
+    background-color: #44B26F;
+    color: #fdfdfd;
+    font-family: 'Inter';
+    border: 0;
+}
